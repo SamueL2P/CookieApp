@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Cookie POC in MVC";
+}
+
+<div class="container mx-auto mt-10">
+    <h2 class="text-2xl font-bold mb-6">Manage Cookies</h2>
+
+    <p class="mb-4">
+        <a href="@Url.Action("SetCookie", "Cookie")" class="btn btn-primary bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Set Cookie</a>
+    </p>
+    <p class="mb-4">
+        <a href="@Url.Action("GetCookie", "Cookie")" class="btn btn-success bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Get Cookie</a>
+    </p>
+    <p class="mb-4">
+        <a href="@Url.Action("DeleteCookie", "Cookie")" class="btn btn-danger bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Delete Cookie</a>
+    </p>
+</div>
